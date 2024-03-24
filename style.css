@@ -1,0 +1,87 @@
+body {
+    background-color: #ffc0cb;
+    margin: 0%;
+    min-height: 100dvh;
+    /* overflow: hidden; */
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.head-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.heading {
+    font-size: 60px; /* Larger font size */
+    font-weight: bold;
+    color: #ff85a2; /* Cute pink text color */
+    margin-top: 50px; /* Adjust margin top as needed */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font family */
+    align-self: center;
+}
+
+.para {
+    font-size: 28px; /* Adjust the font size as needed */
+    color: #4a4a4a; /* Dark gray text color */
+    margin-top: 10px; /* Adjust margin top as needed */
+    align-self: center;
+}
+
+.first-container{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items:center;
+
+}
+
+.saitama-pic img{
+    width: 200px;
+    height: auto;
+}
+
+.fubuki-pic img{
+    width: 200px;
+    height: auto;
+}
+
+.sec-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    flex-wrap: wrap;
+}
+
+.garou-image img{
+    width: 300px;
+    height: auto;
+}
+
+.fubukii-image img{
+    width: 300px;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+
+  }
+
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+
+  caption {
+    padding: 10px;
+  }
