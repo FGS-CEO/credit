@@ -6,7 +6,7 @@ const members = [
     { name: "LoneWolf", gfs: 0},
     { name: "Denp", gfs: 0 },
     { name: "Pan", gfs: 0},
-    { name: "Dio", gfs: 1000 },
+    { name: "Dio", gfs: 1001 },
     {name: "Null", gfs: 100},
 ];
 
