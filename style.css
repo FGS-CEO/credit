@@ -5,6 +5,10 @@ body {
     overflow: hidden;
 }
 
+::selection{
+    background-color: aqua;
+}
+
 .main-container{
     display: flex;
     flex-direction: column;
