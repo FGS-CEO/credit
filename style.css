@@ -2,7 +2,7 @@ body {
     background-color: #ffc0cb;
     margin: 0%;
     min-height: 100dvh;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .main-container{
@@ -38,7 +38,24 @@ body {
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
-    align-items:center;
+    
+
+}
+
+.left-imgs{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.saitama-pic{
+    width: 210px;
+    align-self: self-end;
 
 }
 
@@ -52,13 +69,6 @@ body {
     height: auto;
 }
 
-.sec-container{
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
-    flex-wrap: wrap;
-}
-
 .garou-image img{
     width: 300px;
     height: auto;
@@ -67,6 +77,12 @@ body {
 .fubukii-image img{
     width: 300px;
     height: auto;
+}
+
+.table-container{
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: none;
 }
 
 table {
